@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    color: rgb(236, 23, 255);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(244, 138, 253);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(244, 138, 253);
+}
+
+.izquierdad {
+    background-color: rgb(18, 3, 32);
+    height: 850px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 40px 20px 20px 30px;
+    text-align: center;
+
+
+}
+
+.principal {
+    background-color: rgb(24, 0, 48);
+    height: 850px;
+
+}
+
+
+#mensaje {
+    background-color: rgb(135, 80, 187);
+    height: 100px;
+    width: 60%;
+    border-radius: 20px;
+    margin: 50px 50px 20px 180px;
+}
+
+
+
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+
+}
+
+
+
+.teclado-digital {
+    width: 60%;
+    height: 350px;
+    background-color: rgb(35, 7, 61);
+    padding: 50px 50px 20px 20px;
+    margin-left: 180px;
+    border-radius: 20px;
+
+}
+
+
+.palabras {
+    padding: 50px 50px 20px 50px;
+}
+
+.letra {
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(73, 14, 128);
+    border-radius: 10px;
+    color: rgb(236, 23, 255);
+
+}
+
+
+#agregarTareas {
+    font-size: 18px;
+    width: auto;
+    height: 50px;
+    background-color: rgb(73, 14, 128);
+    border-radius: 10px;
+    color: rgb(236, 23, 255);
+    text-align: center;
+}
+
+#agregarTareas:hover {
+    font-size: 18px;
+    width: auto;
+    height: 50px;
+    background-color: rgb(196, 133, 255);
+    border-radius: 10px;
+    color: rgb(236, 23, 255);
+    text-align: center;
+}
+
+
+#nombreusurio {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#agregarlista {
+    font-size: 18px;
+    width: auto;
+    height: 50px;
+    background-color: rgb(73, 14, 128);
+    border-radius: 10px;
+    color: rgb(236, 23, 255);
+    text-align: center;
+}
+
+
+
+
+#agregarlista:hover {
+    font-size: 18px;
+    width: auto;
+    height: 50px;
+    background-color: rgb(196, 133, 255);
+    border-radius: 10px;
+    color: rgb(236, 23, 255);
+    text-align: center;
+}
+
+
+
+
+
+.pr {
+    display: flex;
+    align-content: center;
+}
+
+
+
+
+
+
+#agregar {
+    font-size: 18px;
+    width: auto;
+    height: 50px;
+    background-color: rgb(39, 7, 70);
+    border-radius: 10px;
+    color: rgb(236, 23, 255);
+    text-align: center;
+}
+
+#agregarTarea {
+    font-size: 18px;
+    width: auto;
+    height: 50px;
+    background-color: rgb(39, 7, 70);
+    border-radius: 10px;
+    color: rgb(236, 23, 255);
+    text-align: center;
+}
+
+
+
+#lista {
+    background-color: rgb(135, 80, 187);
+    height: 100px;
+    width: 60%;
+    border-radius: 20px;
+    margin: 50px 50px 20px 180px;
+}
+
+p {
+    background-color: rgb(135, 80, 187);
+    height: 100px;
+    width: 60%;
+    border-radius: 20px;
+    margin: 50px 50px 20px 180px;
+}
+
+
+/*
+.adicional {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*/
+a {
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    color: darkorange;
+    font-size: 20px;
+
+}
+
+a:hover {
+    cursor: pointer;
+    list-style: none;
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.table {
+    width: 550px;
+    background-color: rgb(39, 7, 70);
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+#mensaje {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-left: 10px;
+}

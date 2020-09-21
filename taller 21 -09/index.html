@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vierport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/registro.css">
+</head>
+
+<body>
+
+    <!-- ----------------- -->
+    <main>
+
+
+        <div class="conte-form">
+
+
+
+            <form id="formRegistro" onsubmit="ValidadFormulario(event)">
+
+
+                <div class="general d-flex flex-column">
+                    <h1>Registro</h1>
+
+                    <div class="form-row col-md-8">
+                        <div class="campos col-sm-12">
+
+                            <input type="text" class="campos-texto" id="nomusuario" title="Escriba su nombre completo"
+                                placeholder="Nombre Completo" minlength="10" maxlength="50" required>
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-row col-md-8">
+                        <div class="campos col-sm-12">
+                            <input type="email" class="campos-texto" title="Escriba su correo electronico" id="email"
+                                placeholder="anaphie@example.com" minlength="10" maxlength="30" required>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-row col-md-8">
+                        <div class="campos col-sm-12">
+
+                            <input type="password" class="campos-texto" id="password"
+                                title="Escriba su contraseña con un minino de 5 y maximo de 10 caracteres"
+                                placeholder="Contraseña" minlength="5" maxlength="10" pattern="[A-Za-z0-9!?-]{1-15}"
+                                required>
+                        </div>
+                    </div>
+
+                    <!--<button type="submit" class="btn">Enviar</button>-->
+
+                    <!-- <button type="submit" class="btn">Enviar</button>-->
+
+                    <!--  <a href="./login.html"> <input type="submit" class="btn" value="Enviar"></a>-->
+
+                    <input type="submit" class="btn" value="Enviar">
+
+                </div>
+            </form>
+            <!--
+            <a href="./login.html"> <input type="submit" class="btn" value="Enviar"></a>-->
+
+
+
+
+
+
+
+
+
+
+            <!-- Aqui finaliza el formulario-->
+
+        </div>
+
+
+
+
+
+
+    </main>
+
+
+    <script src="./assets/js/form-registro.js"></script>
+
+</body>
+
+</html>
