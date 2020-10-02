@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* el boostrap ya trae por defecto el global "*" */
+
+.header {
+    width: 100%;
+}
+
+.headerStyle {
+    color: rgb(140, 0, 255);
+}
